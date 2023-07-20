@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:coral;
+}
+
+.container{
+    height:80vh;
+    width:100%;
+    text-align:center;
+}
+
+p{
+    font-size:40px;
+    font-weight:bolder;
+    font-family:Arial;
+}
+
+.c1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+input{
+    width:270px;
+    height:30px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+select{
+    width:270px;
+    height:40px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+button{
+    padding:10px 20px;
+    background-color:paleturquoise;
+    color:black;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:limegreen;
+}
+
+p#result{
+    margin-top:20px;
+}
+
+
+
+
